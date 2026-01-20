@@ -52,8 +52,8 @@ Cucumber_project_1/
 ├── src/
 │   ├── main/
 │   │   └── java/
-│   │       └── io/cucumberr/Cucumber_project_1/
-│   │           └── App.java
+│   │       
+│   │           
 │   └── test/
 │       └── java/
 │           ├── features/                    # Feature files
