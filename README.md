@@ -125,7 +125,7 @@ Feature files are located in `src/test/java/features/` and use Scenario Outline 
 
 ### Run All Tests
 ```bash
-mvn test
+mvn clean -Dtest=TestRunner test
 ```
 
 ### Run Specific Tags
