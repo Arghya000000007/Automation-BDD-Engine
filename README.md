@@ -48,12 +48,8 @@ This project implements a Page Object Model (POM) based test automation framewor
 ## 📁 Project Structure
 
 ```
-Cucumber_project_1/
+Automation-BDD-Engine/
 ├── src/
-│   ├── main/
-│   │   └── java/
-│   │       
-│   │           
 │   └── test/
 │       └── java/
 │           ├── features/                    # Feature files
@@ -61,7 +57,7 @@ Cucumber_project_1/
 │           │   └── searchProduct.feature
 │           ├── Hooks/                       # Test hooks
 │           │   └── Hooks.java
-│           ├── io/cucumberr/Cucumber_project_1/
+│           ├── io/                          # Test runners
 │           │   ├── TestRunner.java          # Main test runner
 │           │   └── Failed_scenarios.java    # Failed scenario runner
 │           ├── pageObjects/                 # Page Object classes
@@ -229,6 +225,7 @@ The framework generates multiple types of reports:
 1. **Driver not found**: WebDriverManager should handle this automatically. Ensure internet connectivity.
 2. **Element not found**: Check for proper waits and element locators
 3. **Parallel execution issues**: Ensure thread-safe WebDriver management
+4. **Package declaration errors**: Ensure package declarations match the directory structure (e.g., files in `src/test/java/io/` should have `package io;`)
 
 ## 📧 Contact
 
@@ -237,4 +234,3 @@ For questions or support, please open an issue in the repository.
 ---
 
 **Happy Testing! 🚀**
-
